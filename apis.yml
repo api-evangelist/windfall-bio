@@ -1,8 +1,23 @@
 aid: windfall-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/windfall-bio.png
 name: Windfall Bio
-description: 'Windfall Bio is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Windfall Bio transforms methane emissions into organic fertilizer and carbon credits
+  using proprietary non-GMO methane-eating microbes (methanotrophs). The company operates across
+  agriculture, coal mining, oil & gas, and waste management, capturing methane at the source and
+  converting it into a soil amendment while generating verifiable carbon credits. Surfaced as a
+  portfolio company of bessemer-venture-partners and added to the API Evangelist network. As of the
+  latest enrichment pass the company publishes no developer API, SDK, or technical integration surface.'
 url: https://raw.githubusercontent.com/api-evangelist/windfall-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Deep Tech
+- Climate Tech
+- Methane
+- Biotech
+- Agriculture
+- Carbon Credits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.windfall.bio/
+- type: PrivacyPolicy
+  url: https://www.windfall.bio/privacy-policy
+- type: Support
+  url: https://www.windfall.bio/contact-us
+- type: DomainSecurity
+  url: security/windfall-bio-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
